@@ -1,0 +1,268 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* head section dec */
+header {
+    background: #35424a;
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header .logo {
+    color: #ffffff; 
+    text-decoration: none;
+    font-size: 25px; 
+    font-weight: bold;
+}
+
+.header .navbar {
+    display: flex; 
+    align-items: center;
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 18px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+#menu-btn {
+    color: white;
+    font-size: 20px;
+    margin-left: 15px;
+    cursor: pointer;
+}
+
+/* home section dec */
+#home .content {
+    padding: 20px;
+    background: #ffffff;
+    margin: 20px;
+    border-radius: 5px;
+}
+
+.content h3{
+    text-align: center;
+}
+
+.content a{
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
+.content a:hover{
+    color: red;
+}
+
+/* image section dec */
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto 20px;
+}
+
+/* course section dec */
+.courses {
+    padding: 20px;
+    background: #ffffff;
+    margin: 20px;
+    border-radius: 5px;
+}
+
+.courses .heading {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#courses table {
+    width: 100%;
+    margin-top: 20px; 
+}
+
+#courses th, #courses td {
+    border: 1px solid #ccc; 
+    padding: 10px; 
+    text-align: left;  
+}
+
+#courses th {
+    background-color: #f2f2f2; 
+    font-weight: bold; 
+    text-align: center; 
+}
+
+/* about section dec */
+.about {
+    padding: 20px;
+    background: #ffffff;
+    margin: 20px;
+    border-radius: 5px;
+}
+
+.about .heading {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.about h2 {
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.about ul, .about ol {
+    margin-left: 20px;
+    margin-bottom: 15px;
+}
+
+/* media section dec */
+.media-section {
+    padding: 20px;
+    background: #ffffff;
+    margin: 20px;
+    border-radius: 5px;
+}
+
+.media-section .heading {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.media-section h2 {
+    margin-top: 15px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.video-container {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.video-container iframe {
+    display: block;
+    margin: 0 auto;
+}
+
+.audio-container {
+    text-align: center;
+}
+
+.audio-container audio {
+    max-width: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
+/* contact dec */
+.contact {
+    padding: 20px;
+    background: #ffffff;
+    margin: 20px;
+    border-radius: 5px;
+}
+
+.contact .heading {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.contact form {
+    max-width: 600px; 
+    margin: 0 auto;
+}
+
+.contact .inputBox {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+.contact .inputBox span {
+    color: #35424a; 
+    margin-right: 15px;
+    font-size: 16px;
+}
+
+.contact .inputBox input,
+.contact .inputBox textarea {
+    width: 100%;
+    padding: 5px;
+    font-size: 16px;
+    color: #333;
+    background: none;
+    border: none;
+    outline: none;
+}
+
+.contact .inputBox textarea {
+    height: 100px;
+    resize: none;
+}
+
+.contact .btn {
+    display: block;
+    width: 100%;
+    background: #35424a; 
+    color: #ffffff;
+    padding: 10px 0;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact .btn:hover {
+    background: green; 
+}
+
+/* external dec */
+.external-link {
+    padding: 20px;
+    background: #ffffff;
+    margin: 20px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.external-link .heading {
+    margin-bottom: 15px;
+}
+
+.external-link p {
+    font-size: 17px;
+}
+
+.external-link a {
+    color: #35424a; 
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.external-link a:hover {
+    color: green; 
+}

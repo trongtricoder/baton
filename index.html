@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EduWeb</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- font awesome link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    
+    <!-- header section starts -->
+    <header class="header">
+        <a href="#" class="logo"> <i class="fas fa-graduation-cap"></i> EduWeb </a>
+        <nav class="navbar">
+            <a href="#home">Trang Chủ</a>
+            <a href="#courses">Khóa Học</a>
+            <a href="#about">Về Chúng Tôi</a>
+            <a href="#media">Tài liệu</a>
+            <a href="#contact">Liên Hệ</a>
+            <div id="menu-btn" class="fas fa-bars"></div>
+
+        </nav>
+    </header>
+
+    <!-- home section starts -->
+    <section class="home" id="home">
+        <div class="content">
+            <h3>Học Tập Mọi Lúc Mọi Nơi</h3>
+            <p>Tham gia các khóa học trực tuyến chất lượng cao từ các chuyên gia hàng đầu. Hãy bắt đầu bài học đầu tiên của bạn thông qua mục <a href="#media">Tài liệu</a> để có thể hiểu hơn xin vui lòng đi đến phần <a href="#contact">Liên hệ</a>. Khám phá các khóa học của Website và tận hưởng thành quả của sự nỗ lực trong học tập ở mục dưới đây.</p>
+            <a href="#courses" class="btn">Khám Phá Khóa Học</a>
+        </div>
+    </section>
+
+    <!-- image adding -->
+    <section class="image-section">
+        <img src="https://www.longbaycollege.com/wp-content/uploads/2022/12/Long-Bay-College-Badges-Banner-22.jpg" alt="Lớp học demo">
+    </section>     
+
+    <!-- courses section -->
+    <section class="courses" id="courses">
+        <h1 class="heading">Khóa Học Của Chúng Tôi</h1>
+        <table border="1">
+            <tr>
+                <th>Khóa Học</th>
+                <th>Mô Tả</th>
+                <th>Giá</th>
+            </tr>
+            <tr>
+                <td>Web Development</td>
+                <td>Học cách xây dựng trang web từ cơ bản đến nâng cao.</td>
+                <td>$99</td>
+            </tr>
+            <tr>
+                <td>Data Science</td>
+                <td>Khám phá thế giới của khoa học dữ liệu và phân tích dữ liệu.</td>
+                <td>$149</td>
+            </tr>
+            <tr>
+                <td>Digital Marketing</td>
+                <td>Tìm hiểu các chiến lược tiếp thị kỹ thuật số hiệu quả.</td>
+                <td>$79</td>
+            </tr>
+        </table>
+    </section>
+    
+    <!-- About us section -->
+    <section class="about" id="about">
+        <h1 class="heading">Về Chúng Tôi</h1>
+        <p>EduWeb là nền tảng học tập trực tuyến hàng đầu, cung cấp các khóa học chất lượng cao từ các chuyên gia trong ngành. Sứ mệnh của chúng tôi là giúp mọi người tiếp cận kiến thức một cách dễ dàng và hiệu quả.</p>
+        <h2>Điểm Nổi Bật Của Chúng Tôi:</h2>
+        <ul>
+            <li>Khóa học đa dạng và cập nhật liên tục.</li>
+            <li>Giảng viên giàu kinh nghiệm và tận tâm.</li>
+            <li>Cộng đồng học tập sôi động và hỗ trợ lẫn nhau.</li>
+        </ul>
+        <h2>Lợi Ích Khi Tham Gia EduWeb:</h2>
+        <ol>
+            <li>Học tập linh hoạt theo lịch trình của bạn.</li>
+            <li>Truy cập tài liệu học tập chất lượng cao.</li>
+            <li>Cơ hội kết nối với các chuyên gia trong ngành.</li>
+        </ol>
+    </section>
+
+    <!-- Video using iframe and audio controls -->
+    <section class="media-section" id="media">
+        <h1 class="heading">Tài Nguyên Học Tập</h1>
+        <div class="video-container">
+            <h2>Video Giới Thiệu EduWeb</h2>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/_WpGWlMDVzA?si=U4bBflEFEb9nFk_N" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <div class="audio-container">
+            <h2>Audio Hướng Dẫn Học Tập</h2>
+            <audio controls>
+                <source src="music.mp3" type="audio/mpeg">
+                Trình duyệt của bạn không hỗ trợ thẻ audio.
+            </audio>
+        </div>
+    </section>
+
+    <!-- Contact form -->
+    <section class="contact" id="contact">
+        <h1 class="heading">Liên Hệ Với Chúng Tôi</h1>
+        <form action="#">
+            <div class="inputBox">
+                <span class="fas fa-user"></span>
+                <input type="text" placeholder="Tên Của Bạn" required>
+            </div>
+            <div class="inputBox">
+                <span class="fas fa-envelope"></span>
+                <input type="email" placeholder="Email Của Bạn" required>
+            </div>
+            <div class="inputBox">
+                <span class="fas fa-comment"></span>
+                <textarea placeholder="Tin Nhắn Của Bạn" required></textarea>
+            </div>
+            <input type="submit" value="Gửi Tin Nhắn" class="btn">
+        </form>
+    </section>
+
+    <!-- External link w3school -->
+    <section class="external-link">
+        <h1 class="heading">Tài Nguyên Bổ Sung</h1>
+        <p>Để tìm hiểu thêm về phát triển web và các công nghệ liên quan, hãy truy cập <a href="https://www.w3schools.com" target="_blank">W3Schools</a>.</p>
+    </section>
+</body>
+</html>
